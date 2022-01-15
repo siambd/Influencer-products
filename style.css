@@ -1,6 +1,8 @@
+/* for computer  device  */
 /* common style  */
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 a {
   text-decoration: none;
@@ -10,7 +12,7 @@ h1 {
   font-weight: 700;
 }
 section {
-  margin: 30px 100px;
+  margin: 30px 130px;
 }
 
 /* header section style  */
@@ -71,6 +73,13 @@ section {
     grid-gap:2px;
     width: 1000px;
    margin-left: 120px;
+   border-bottom: 1px solid #C0CCDA;
+   border-top: 1px solid #C0CCDA;
+   /* padding-bottom: 5px; */
+   /* padding-top: 20px; */
+   /* padding-left: 50px; */
+   /* padding-right: 20px ; */
+   padding: 20px 20px 5px 50px ;
 }
 
 /* popular collection part  */
@@ -82,19 +91,71 @@ section {
 .popular-items{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    column-gap: 2px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    /* padding: 0px 20px; */
 }
 .container{
     width: 350px;
-    height: 420px;
-    box-shadow: 5px 5px 15px grey;
+    height: 465px;
+    box-shadow: 0 0 8px 1px gray;
     grid-gap:30px;
     margin: 10px; 
     padding: 14px;
-    border-radius: 10px;
+    border-radius: 5px;
    
 }
 .container img{
     width: 350px;
     height: 256px;
 }
+.star-color{
+  color: Orange ;
+}
+.rating-number{
+  margin-left: 10px;
+}
+
+.see-more-button{
+  color: #E02C6D;
+  float: right;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+/* extra-part start */
+.extra-part{
+  display: flex;
+  margin-top: 150px;
+  padding-left: 15px;
+}
+.extra-part-info{
+  width: 50%;
+  margin-left: 96px;
+}
+.know-more-button{
+  display: inline-block;
+  margin-top: 16px;
+  background-color:#E02C6D;
+  padding: 12px 40px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+/* footer part  */
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 -60px;
+  margin-top: 100px;
+  padding: 10px 0;
+}
+.social-media-link a{
+text-decoration: none;
+color: white;
+padding-left: 10px;
+}
+
+/* for mobile device  */
