@@ -30,6 +30,7 @@ section {
 .preebook-part {
   display: flex;
   align-content: flex-end;
+   
 }
 .preebook-info {
   width: 50%;
@@ -162,7 +163,8 @@ padding-left: 10px;
   }
   /* header part  */
   .header{
-    display: none;
+    text-align: center;
+    flex-direction: column;
   }
   /* prebook part  */
   .preebook-part{
@@ -195,7 +197,6 @@ padding-left: 10px;
     margin-left: 20px;
     
   }
-
 
   /* shop logo part  */
   .logo-part{
@@ -244,5 +245,106 @@ footer{
   margin-top: 50px;
 }
 
+}
+
+/* tablet  */
+@media only screen and (min-width: 577px) and (max-width: 768px){
+   /* common style  */
+   section{
+    margin: 1px 2px;
+  }
+  /* header part  */
+  .header{
+    text-align: center;
+    flex-direction: column;
+  }
+  /* prebook part  */
+  .preebook-part{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .preebook-info{
+    width: 100%;
+  }
+  .center-alignment{
+    text-align: center;
+  }
+  .preebook-button{
+    display: inline-block;
+    /* float: right; */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .preebook-image {
+    width: 100%;
+    margin: 10px -20px;
+    padding: 20px 20px;
+    background-size: 500px;
+  }
+  .preebook-image img{
+    width: 80%;
+    margin-left: 60px;
+    
+  }
+  /* shop logo part  */
+  .logo-part{
+    margin-top: 500px;
+    margin-left: 90px;
+}
+.shop-logo{
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  margin-left: 10px;
+  border: 0px;
+  margin-top: -70px;
+  justify-content: center;
+}
+.shop-logo img{
+  width: 80px;
+}
+
+/* popular collection part  */
+.popular-items{
+  grid-template-columns:repeat(2, 1fr);
+  grid-row-gap: 5px;
+  grid-column-gap: 1px;
+}
+.container{
+  width: 85%;
+}
+.container img{
+  width: 318px;
+}
+.see-more-button{
+  margin-right: 30px;
+
+}
+/* extra part  */
+.extra-part{
+  flex-direction: column;
+}
+.extra-part-image {
+  width: 100%;
+}
+.extra-part-image img{
+  width: 98%;
+}
+.extra-part-info{
+  width: 100%;
+  /* padding-left: -50px; */
+  margin-left: -20px;
+  padding: 10px;
+}
+/* footer part  */
+footer{
+  padding-bottom: 80px;
+  margin-top: 50px;
+}
 
 }
