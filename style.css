@@ -170,7 +170,6 @@ padding-left: 10px;
   }
   h1{
     font-size: 20px;
-    /* text-align: center; */
   }
   .preebook-info{
     width: 100%;
@@ -184,9 +183,7 @@ padding-left: 10px;
     text-align: center;
     justify-content: center;
   }
-  .center{
-    text-align: center;
-  }
+
   .preebook-image {
     width: 100%;
     margin: 10px -20px;
@@ -199,8 +196,8 @@ padding-left: 10px;
     
   }
 
+
   /* shop logo part  */
-  
   .logo-part{
     margin-top: 300px;
 }
@@ -220,6 +217,32 @@ padding-left: 10px;
 
 }
 
+/* popular collection part  */
+.popular-items{
+  grid-template-columns:repeat(1, 1fr);
+}
+
+/* extra part  */
+.extra-part{
+  flex-direction: column;
+}
+.extra-part-image {
+  width: 100%;
+}
+.extra-part-image img{
+  width: 98%;
+}
+.extra-part-info{
+  width: 385px;
+  /* padding-left: -50px; */
+  margin-left: -20px;
+  padding: 10px;
+}
+
+/* footer part  */
+footer{
+  margin-top: 50px;
+}
 
 
 }
