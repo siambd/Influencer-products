@@ -1,0 +1,100 @@
+/* common style  */
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+section {
+  margin: 30px 100px;
+}
+
+/* header section style  */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+/* preebook part  */
+.preebook-part {
+  display: flex;
+  align-content: flex-end;
+}
+.preebook-info {
+  width: 50%;
+}
+.preebook-image {
+  width: 50%;
+  margin-left: 250px;
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 20%;
+  background-size: 420px;
+  background-position: center;
+}
+.preebook{
+    height: 500px;
+
+}
+.preebook-part img{
+    transition: ease-in-out 1s
+}
+.preebook-part:hover img{
+    transform: rotate(30deg);
+}
+.preebook-button{
+    background-color:#E02C6D;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-top: 19px;
+
+}
+/* logo part  */
+.logo-part{
+    margin-top: 1px;
+}
+.shop-logo{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-gap:2px;
+    width: 1000px;
+   margin-left: 120px;
+}
+
+/* popular collection part  */
+#popular-collection-title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.popular-items{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 2px;
+}
+.container{
+    width: 350px;
+    height: 420px;
+    box-shadow: 5px 5px 15px grey;
+    grid-gap:30px;
+    margin: 10px; 
+    padding: 14px;
+    border-radius: 10px;
+   
+}
+.container img{
+    width: 350px;
+    height: 256px;
+}
