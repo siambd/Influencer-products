@@ -152,35 +152,55 @@ color: white;
 padding-left: 10px;
 }
 
+
+/* media querry  */
 /* for mobile device  */
 @media only screen and (max-width:576px){
-  .nav-link{
+  /* common style  */
+  section{
+    margin: 1px 2px;
+  }
+  /* header part  */
+  .header{
     display: none;
   }
+  /* prebook part  */
   .preebook-part{
     flex-direction: column;
   }
   h1{
     font-size: 20px;
+    /* text-align: center; */
   }
   .preebook-info{
     width: 100%;
-  
+  }
+  .center-alignment{
+    text-align: center;
+  }
+  .preebook-button{
+    display: inline-block;
+    /* float: right; */
+    text-align: center;
+    justify-content: center;
+  }
+  .center{
+    text-align: center;
   }
   .preebook-image {
     width: 100%;
-    margin: 10px -10px;
-    padding: 20px 0px;
+    margin: 10px -20px;
+    padding: 20px 20px;
     background-size: 350px;
   }
   .preebook-image img{
     width: 90%;
-    margin-left: 50px;
+    margin-left: 20px;
     
   }
-  section{
-    margin: 1px 2px;
-  }
+
+  /* shop logo part  */
+  
   .logo-part{
     margin-top: 300px;
 }
@@ -199,5 +219,7 @@ padding-left: 10px;
   width: 50px;
 
 }
+
+
 
 }
